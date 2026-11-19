@@ -1,11 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-  
-    <title>Document</title>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Kafe Hornet</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 <body>
+        <header>
+      <nav class="sidomeny">
+        <ul>
+          <li>
+            <a href="index.html"><strong>Hem</strong></a>
+          </li>
+          <li>
+            <a href="menu.html"><strong>Meny</strong></a>
+          </li>
+          <li>
+            <a href="catering.html"><strong>Catering</strong></a>
+          </li>
+          <li>
+            <a href="aboutus.html"><strong>Om oss</strong></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    
+<p>
+<label for="service">Vad ska vi göra?</label>
+<select id="service" required>
+  <option value="">Välj en tjänst</option>
+  <option value="catering">Catering</option>
+  <option value="event">Event</option>
+  <option value="other">Annat</option>
+</select>
+</p>
     
 </body>
 </html>
