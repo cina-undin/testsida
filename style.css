@@ -21,7 +21,7 @@ camelCase backgroundColor (java)
 body {
   margin: 0;
   background-color: #FBF7F2;
-  color: #2B2118;
+  color: #2B2118 ;
   font-family: system-ui, Helvetica, Arial, sans-serif;
   line-height: 1,5;
 }
@@ -33,7 +33,6 @@ font-size: 2,5rem;
 h1, h2 {
   text-align: center;
   position: relative;
-  color: #2b4abf;
   font-family: Georgia, sans-serif;
 }
 
@@ -54,6 +53,15 @@ color:#B5502B;
 }
 a:hover{
 color: #8F3E20
+}
+
+nav a{
+  font-weight: bold;
+  text-decoration: none;
+}
+
+label{
+color: #5E7F5A
 }
 .sidomeny {
   position: fixed;
