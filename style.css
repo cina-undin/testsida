@@ -1,4 +1,3 @@
-
 /*
 Bakgrund: #FBF7F2 (varm vit)
 Text: #2B2118 (mörkbrun)
@@ -19,87 +18,107 @@ camelCase backgroundColor (java)
 */
 
 body {
-  margin: 0;
-  background-color: #FBF7F2;
-  color: #2B2118 ;
+ 
+  background-color: #fbf7f2;
   font-family: system-ui, Helvetica, Arial, sans-serif;
-  line-height: 1,5;
+  line-height: 1, 5;
+  margin: 0 auto;
+  padding: 0 16px;
+  color: #2b2118
 }
 
-.h1{
-font-size: 2,5rem;
+.h1 {
+  font-size: 2, 5rem;
+  text-align: left;
 }
 
-h1, h2 {
-  text-align: center;
+h1,
+h2 {
   position: relative;
   font-family: Georgia, sans-serif;
+  color: #2b2118
 }
 
+p {
+color: #2b2118;
+}
+
+
+img{
+max-width: 100%;
+border-radius: 8px;
+}
+
+.button{
+display: inline-block;
+border:1px ;
+padding:12px 24px;
+background-color: #B5502B;
+border-radius: 8px;
+text-decoration: none;
+color:#ffff
+
+
+}
+
+.button:hover {
+  background-color:#8F3E20;
+
+
+}
+.card {
+background-color: white;
+padding:8px 24px;
+border: 1px solid #E6DCCF;
+border-radius: 12px;
+margin: 24px 0;
+display: flex;
+gap: 16px;
+}
+
+.card-image{
+border: 8px 24px;
+}
 
 
 .border {
   box-sizing: border-box;
-  max-width: 500px;
+  max-width: 1100px;
+  background-color: #f1e8dc;
   margin: 0 auto;
-  border: 2px solid #F1E8DC;
+  border: 6px solid #f1e8dc;
   padding: 15px;
-  border-width: 6px;
+  border-radius: 8px;
 }
 
-a{
-color:#B5502B;
-
+a {
+  color: #b5502b;
 }
-a:hover{
-color: #8F3E20
+a:hover {
+  color: #8f3e20;
+  text-decoration: none;
 }
 
-nav a{
+nav a {
   font-weight: bold;
   text-decoration: none;
 }
 
-label{
-color: #5E7F5A
-}
-.sidomeny {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 220px;
-  height: 100vh;
-  position: fixed;
-  z-index: 1;
-  background-color: #1e1e1e;
-  padding: 20px;
-}
-
-.sidomeny ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.sidomeny li {
-  margin-bottom: 12px;
-  position: relative;
-  text-align: center;
-}
-
-.sidomeny a {
-  color: #ffffff;
-  text-decoration: none;
-  display: block;
+label {
+  color: #5e7f5a;
 }
 
 footer {
-  background-color: #ffffff;
-  color: #000000;
-  text-align: center;
-  padding: 10px;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  height: 80px;
+  background-color: #f1e8dc;
+  padding: 24px;
+  
 }
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+
+
